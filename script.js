@@ -29,19 +29,19 @@ var mymap = L.map('mapid').setView([60.122546, 19.935219], 13);
 		id: 'mapbox/streets-v11'
 	}).addTo(mymap);
 
-	L.marker([51.5, -0.09]).addTo(mymap)
+	L.marker([60.122546, 19.935219]).addTo(mymap)
 		.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
 
-	L.circle([51.508, -0.11], 500, {
+	L.circle([60.122546, 19.935219], 500, {
 		color: 'red',
 		fillColor: '#f03',
 		fillOpacity: 0.5
 	}).addTo(mymap).bindPopup("I am a circle.");
 
 	L.polygon([
-		[51.509, -0.08],
-		[51.503, -0.06],
-		[51.51, -0.047]
+		[60.122546, 19.935219],
+		[60.122546, 19.91,
+        [60.12546, 19.93519]
 	]).addTo(mymap).bindPopup("I am a polygon.");
 
 
