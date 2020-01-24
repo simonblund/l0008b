@@ -19,7 +19,7 @@ function lat2tile(lat,zoom)  { return (Math.floor((1-Math.log(Math.tan(lat*Math.
 
 mapme(); */
 
-var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+var mymap = L.map('mapid').setView([60.122546, 19.935219], 13);
 
 	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2ltb25ibHVuZCIsImEiOiJjazVxbGRpaHEwM2YzM2ZwOWYyeHZvMHlkIn0.kZuGKh1zX0bGlYmL3lFk5Q', {
 		maxZoom: 18,
