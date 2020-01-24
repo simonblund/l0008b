@@ -40,8 +40,8 @@ var mymap = L.map('mapid').setView([60.122546, 19.935219], 13);
 
 	L.polygon([
 		[60.125263, 19.951344],
-		[60.132359, 19.952717],
-        [60.120521, 19.967737]
+		[60.138513, 19.961987],
+        [60.134069, 19.981728]
 	]).addTo(mymap).bindPopup("Område i vindens riktning som behöver evakueras före klockan 13:00.");
 
 
@@ -50,7 +50,7 @@ var mymap = L.map('mapid').setView([60.122546, 19.935219], 13);
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
-			.setContent("You clicked the map at " + e.latlng.toString())
+			.setContent("Du klickade på " + e.latlng.toString())
 			.openOn(mymap);
 	}
 
