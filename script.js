@@ -29,20 +29,20 @@ var mymap = L.map('mapid').setView([60.122546, 19.935219], 13);
 		id: 'mapbox/streets-v11'
 	}).addTo(mymap);
 
-	L.marker([60.122546, 19.935219]).addTo(mymap)
-		.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+	L.marker([60.125263, 19.951344]).addTo(mymap)
+		.bindPopup("<b>Industribrand</b><br />Farlig rök.").openPopup();
 
-	L.circle([60.122546, 19.935219], 500, {
+	L.circle([60.125263, 19.951344], 500, {
 		color: 'red',
 		fillColor: '#f03',
 		fillOpacity: 0.5
-	}).addTo(mymap).bindPopup("I am a circle.");
+	}).addTo(mymap).bindPopup("Evakueras omedelbart.");
 
 	L.polygon([
-		[60.122546, 19.935219],
-		[60.122546, 19.91],
-        [60.12546, 19.93519]
-	]).addTo(mymap).bindPopup("I am a polygon.");
+		[60.125263, 19.951344],
+		[60.132359, 19.952717],
+        [60.120521, 19.967737]
+	]).addTo(mymap).bindPopup("Område i vindens riktning som behöver evakueras före klockan 13:00.");
 
 
 	var popup = L.popup();
