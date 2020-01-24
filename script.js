@@ -40,7 +40,7 @@ var mymap = L.map('mapid').setView([60.122546, 19.935219], 13);
 
 	L.polygon([
 		[60.122546, 19.935219],
-		[60.122546, 19.91,
+		[60.122546, 19.91],
         [60.12546, 19.93519]
 	]).addTo(mymap).bindPopup("I am a polygon.");
 
